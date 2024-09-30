@@ -1,3 +1,5 @@
+
+//kadai_014.htmlのコード
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,3 +29,35 @@
         <p>プログラマーとして転職したいから。<br>転職して数年後にはフリーランスになって、旅行しながら仕事したい！</p>
     </body>
 </html>
+
+//style.cssのコード
+body{
+    font-family: "Arial","Meiryo",sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.text-skyblue{
+    color: skyblue;
+ }
+.text-pink{
+    color: rgb(255, 192, 203)
+ }
+h1{
+    /* 文字サイズの変更 */
+    font-size: 2em;
+    /* 文字間隔を１．２倍にする */
+    letter-spacing: 1.2em;
+    /* 影をつける */
+    text-shadow: 1px 1px 2px gray;
+    /* カラーの実線をつける */
+    border-bottom: solid 3px rgb(115, 115, 114);
+    /* Googleフォント「Josefin Sans」 を使用する */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:<weight>;
+    font-style:normal;
+}
+#parent p{
+    font-weight: bold;
+}
+
